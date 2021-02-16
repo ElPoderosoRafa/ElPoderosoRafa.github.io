@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+#container{
+
+    /*
+    max-width: 1000px;
+    margin:auto;
+
+     COMENTANDO ISSO AQUI, PQ ESTOU MODIFICADO O DESIGN DO SITE.*/
+     width: 100%;
+}
+header{
+    color: white;
+    background-color:#191a21;
+    /* rgba(53, 1, 112, 0.904); */
+    text-align: center;
+    padding: 10px;
+}
+/*
+.titulo{
+}
+*/
+
+/*
+.conteudo-formulario{ 
+    color: rgb(10, 0, 0);
+    background-color: #FFFFFFBB;
+    max-width: 230px;
+    padding: 20px;
+    float: right;
+}
+*/
+.mb{
+    margin-bottom: 20px;
+}
+
+/*  TODOS OS BACKGROUND
+*/
+.bg-main{ /*bg2*/
+    background-image: url('../images/bg2.jpg'); /* IMAGEM DE FUNDO DO CONTEUDO PRINCIPAL DA PAGINA, O OVERFLOW  HIDDEN PERMITE QUE ESSA IMAGEM CUBRA TODO O CONTEUDO EXCEDENTE. */ 
+    background-size: cover;
+    height: 700px;
+    max-width: 100%;
+    padding: 20px;
+
+}
+.bg-skills{
+    background-image: url('../images/bg7.jpg'); /* IMAGEM DE FUNDO DO CONTEUDO PRINCIPAL DA PAGINA, O OVERFLOW  HIDDEN PERMITE QUE ESSA IMAGEM CUBRA TODO O CONTEUDO EXCEDENTE. */ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 100%;
+}
+.bg-contact{
+    background-image: url('../images/bg10.jpg'); /* IMAGEM DE FUNDO DO CONTEUDO PRINCIPAL DA PAGINA, O OVERFLOW  HIDDEN PERMITE QUE ESSA IMAGEM CUBRA TODO O CONTEUDO EXCEDENTE. */ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    overflow:hidden;
+    max-width: 100%;
+}
+
+
+
+
+h2{
+    font-size: 16px;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+.navegacao{
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    margin-left: 20px;
+    display: inline-block; /* DEVE SER SEMPRE NA LI, O DISPLAY: INLINE-BLOCK PARA DEIXAR OS COMPONENTES DA LISTA
+    UM DO LADO DO OUTRO */   
+}
+.card-about{
+    background-color:#fffffff5;
+    color: rgb(10, 0, 0);
+    display: inline-block;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 30px;
+    position: relative;
+}
+.card-about-full{
+    padding:5px;
+    max-width: 40%;
+    box-sizing: border-box;
+    /* COLOQUEI ESSA BORDER, PARA EU TER UMA REFERENCIA DO OBJETO QUE ESTAVA SENDO TRATADO
+    border: 5px solid red;
+    */
+    margin: auto;
+    margin-bottom: 20px;
+}
+.about-me{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-family: 'Ranchers', cursive;
+    
+
+}
+.about-description{
+
+}
+.second-card-about-full{
+max-width: 40%;
+box-sizing: border-box;  
+padding: 40px;
+/* COLOQUEI ESSA BORDER, PARA EU TER UMA REFERENCIA DO OBJETO QUE ESTAVA SENDO TRATADO
+border: 5px solid blue;
+*/
+float: right;
+}
+.img-padding{
+    padding-right: 25px;
+}
+.second-about-description{
+    margin-top: 25px;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* PAGINA DE SKILLS */
+
+.full-container-skill{
+    margin-top: 30px;
+}
+
+.container-skill{
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+.h3-center{
+    text-align: center;
+    color: white;
+}
+h3{
+    margin-bottom: 5px;
+}
+.barrinha{
+    padding: 15px;
+    border-radius: 5px;
+}
+.html{
+background-color: yellowgreen;
+width: 50%;
+}
+.css{
+    background-color: violet;
+    width: 50%;
+}
+.js{
+background-color: teal;
+width: 40%;
+}
+footer{
+    color: white;
+    background-color:#191a21;
+    /* rgba(53, 1, 112, 0.904); */
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    /* cursor: pointer;  CTRL + / comentário  */
+}
+.links:hover{
+    background-color: rgb(135, 138, 135);
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid rgb(0, 0, 15);
+}
+.links:active{
+    background-color: rgb(228, 6, 6);
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid rgb(0, 0, 15);
+}
+.card-contact{
+    height: 475px;
+    width: 300px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+.bg-card{
+    background-image: url('../images/bgcard5.jpg');
+    height: 40%;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+.bg-image{
+    text-align: center;
+}
+.bg-image-conf{
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 30px;
+    border: 3px solid white;
+}
+.center{
+text-align: center;
+font-size: 22px;
+}
+.bio{
+    position: relative;
+    bottom: 30px;
+}
+.bio-info{
+  margin-left: 15px;
+}
+.button{
+    background-color: rgb(48, 30, 34);
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    
+}
+.social{
+    border-top: 1px outset;
+    overflow: hidden;
+    position: relative;
+    bottom: 20px;
+}
+.img-margin{
+    margin-left: 30px;
+}
